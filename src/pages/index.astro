@@ -1,0 +1,44 @@
+---
+import { featuredArticles, 
+  // featuredProjects 
+} from "../lib/featured";
+
+import { GLOBAL } from "../lib/variables";
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/home/Hero.astro";
+import Section from "../components/common/Section.astro";
+// import FeaturedProjects from "../components/home/FeaturedProjects.astro";
+import FeaturedArticles from "../components/home/FeaturedArticles.astro";
+---
+
+<Layout>
+  <Fragment slot="head">
+    <title>{GLOBAL.username} • {GLOBAL.shortDescription}</title>
+    <meta
+      name="description"
+      content={GLOBAL.longDescription}
+    />
+    <meta
+      property="og:title"
+      content={`${GLOBAL.username} • ${GLOBAL.shortDescription}`}
+    />
+    <meta
+      property="og:description"
+      content={GLOBAL.longDescription}
+    />
+    <meta property="og:image" content={`${GLOBAL.rootUrl}/display_pic.webp`} /> 
+    <meta property="og:url" content={GLOBAL.rootUrl} />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="language" content="English" />
+    <link rel="canonical" href={GLOBAL.rootUrl} />
+  </Fragment>
+  <Section class="my-16">
+    <Hero />
+  </Section>
+  <!-- <Section>
+    <FeaturedProjects featuredProjects={featuredProjects} />
+  </Section> -->
+  <Section>
+    <FeaturedArticles featuredArticles={featuredArticles} />
+  </Section>
+</Layout>
