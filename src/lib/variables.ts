@@ -12,26 +12,25 @@ export const GLOBAL = {
   linkedinProfile: "https://www.linkedin.com/in/dewstend/",
 
   // Common text names used throughout the site
-  articlesName: "Articles",
+  articlesName: "Entries",
   projectsName: "Projects",
   viewAll: "View All",
 
   // Common descriptions used throughout the site
-  noArticles: "No featured articles yet.",
+  noArticles: "No featured entries yet.",
   noProjects: "No featured projects yet.",
 
   // Blog metadata
-  blogTitle: "My Thoughts & Takes",
-  blogShortDescription: "Practical wisdom, unfiltered thoughts, and hot takes.",
-  blogLongDescription:
-    "Web development, tech trends, and the occasional programming mishap.",
+  blogTitle: "Thoughts & Takes",
+  blogShortDescription: "Thoughts and takes on various topics.",
+  blogLongDescription: "Thoughts and takes on various topics.",
 
   // Project metadata
   projectTitle: "Projects and Code",
   projectShortDescription:
     "A list of my web development projects and developer tools.",
   projectLongDescription:
-    "All of my projects, including both frontend and full-stack applications.",
+    "A list of my web development projects and developer tools.",
 
   // Profile image
   profileImage: "display_pic.webp",
