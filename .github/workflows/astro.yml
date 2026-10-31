@@ -8,9 +8,15 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
+  # Build-only check for PRs (Dependabot's included); deploy is skipped below.
+  pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  # Auto-merged Dependabot PRs don't trigger a push run (merges made with
+  # GITHUB_TOKEN start no workflows), so redeploy master once a week.
+  schedule:
+    - cron: "0 6 * * 1"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -21,7 +27,8 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  # PR builds get their own queue so they can't cancel a waiting deploy.
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.ref) || 'pages' }}
   cancel-in-progress: false
 
 env:
@@ -54,11 +61,13 @@ jobs:
         run: pnpm astro build --site "${{ steps.pages.outputs.origin }}" --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ${{ env.BUILD_PATH }}/dist
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
