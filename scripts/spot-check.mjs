@@ -63,6 +63,8 @@ async function look(browser, origin, url, view, problems) {
       problems.push(`${url} [${view}] ${r.status()} ${r.url().slice(origin.length)}`);
   });
   await page.goto(origin + url, { waitUntil: "load" });
+  // The theme fades colors in (zag-transition); without this a read can land mid-fade.
+  await page.addStyleTag({ content: "*, *::before, *::after { transition: none !important; animation: none !important; }" });
   const result = await page.evaluate(({ ELEMENTS, STYLES, BOXES }) => {
     const out = {};
     for (const sel of ELEMENTS) {
