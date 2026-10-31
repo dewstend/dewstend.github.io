@@ -1,0 +1,944 @@
+{
+  "/": {
+    "desktop-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "desktop-dark": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "mobile-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 390
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "30px",
+        "fontWeight": "600",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  "/404.html": {
+    "desktop-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "desktop-dark": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "mobile-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 390
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  "/blog/": {
+    "desktop-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "desktop-dark": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "mobile-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 390
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  "/blog/fastbook-mnist/": {
+    "desktop-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "desktop-dark": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "mobile-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 390
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main a": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  "/projects/": {
+    "desktop-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "desktop-dark": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "mobile-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 390
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  "/projects/html-intro/": {
+    "desktop-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "desktop-dark": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "oklch(0.205 0 none)",
+        "width": 1280
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 1280
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.97 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "mobile-light": {
+      "body": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)"
+      },
+      "header": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "oklch(0.97 0 none)",
+        "width": 390
+      },
+      "main": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "footer": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "width": 390
+      },
+      "h1": {
+        "fontFamily": "press-start-2p, ui-monospace, monospace",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "main p": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "oklch(0.205 0 none)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  }
+}

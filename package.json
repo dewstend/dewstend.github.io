@@ -11,7 +11,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "spot-check": "node scripts/spot-check.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",
@@ -20,7 +21,8 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "@types/node": "^22.20.5"
+    "@types/node": "^22.20.5",
+    "playwright": "^1.64.1"
   },
   "pnpm": {
     "overrides": {
